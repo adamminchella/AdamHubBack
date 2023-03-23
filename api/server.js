@@ -6,5 +6,6 @@ server.use(cors());
 server.use(express.json());
 
 server.get("/", (req, res) => res.send("Welcome to AdamHub"));
+server.use;
 
 module.exports = server;
